@@ -22,7 +22,7 @@ The EFI in this project is divided into two versions by macOS version:
 - **By default, no EFI version includes `AirportItlwm`**. Download the driver corresponding to your macOS version from the following address:  
   <https://github.com/OpenIntelWireless/itlwm/releases>  
   After downloading, place the corresponding kext into `EFI/OC/Kexts` and add the corresponding entry under `Kernel -> Add` in `config.plist`.
-- The EFI has been sanitized for SMBIOS. Before use, you must complete the SMBIOS settings yourself in a config editor, set the model to `MacBookAir8,1`, and generate the three SMBIOS identifiers (System Serial Number, MLB, and System UUID). Do not use the EFI directly from the repository.
+- The EFI has been sanitized for SMBIOS. Before use, you must complete the SMBIOS settings yourself in a config editor: for versions 12–14, set the model to `MacBookAir8,1`; for versions 14.4–26.0, set the model to `MacBookPro16,4`, and generate the three SMBIOS identifiers (System Serial Number, MLB, and System UUID).
 - The audio userspace driver must be installed manually after system installation by installing `AtlasAudio.pkg` and restarting the computer.
 
 ## Hardware Specifications
