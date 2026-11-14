@@ -64,7 +64,7 @@ This project has currently been tested only on the following configuration:
 | Intel UHD 615 iGPU Acceleration | ⚠️ | Some Electron / Chromium apps may have rendering errors (suspected to be due to lack of hardware support on the macOS platform) |
 | Internal Display | ✅ |  |
 | Brightness Adjustment | ✅ |  |
-| Audio (Speaker/Headphone/Microphone) | ⚠️ | Partial driver support |
+| Audio (Speaker/Headphone/Microphone) | ⚠️ | Partial driver support ( not support macOS 12 or earlier ) |
 | eMMC | ⚠️ | AppleSDHC |
 | Keyboard | ✅ |  |
 | Trackpad | ✅ |  |
