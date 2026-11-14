@@ -82,9 +82,9 @@ This project has currently been tested only on the following configuration:
 
 ## Notes on eMMC and Audio
 
-- eMMC support is based on <https://github.com/acidanthera/EmeraldSDHC> with further development. The HS400 transfer rate is fully supported, but driver development is still in an early stage and may have other unknown bugs<https://github.com/FangHaoLin-daxia/AppleSDHC>.
+- eMMC support is based on <https://github.com/acidanthera/EmeraldSDHC> with further development. The HS400 transfer rate is fully supported, but driver development is still in an early stage and may have other unknown bugs <https://github.com/FangHaoLin-daxia/AppleSDHC>.
 - The speaker and microphone are driven through independent development (AtlasAudio), but they are still in an early stage. Known bug: when playing audio / video / system sounds, there is a small chance of audio distortion and noise.
-- Development of the 3.5mm headphone driver is in progress<https://github.com/FangHaoLin-daxia/atlasaudio>.
+- Development of the 3.5mm headphone driver is in progress <https://github.com/FangHaoLin-daxia/atlasaudio>.
 - AtlasAudio does not currently support macOS 12 or earlier.
 
 ## Disclaimer
