@@ -65,7 +65,7 @@ This project has currently been tested only on the following configuration:
 | Internal Display | ✅ |  |
 | Brightness Adjustment | ✅ |  |
 | Audio (Speaker/Headphone/Microphone) | ⚠️ | Partial driver support ( not support macOS 12 or earlier ) |
-| eMMC | ⚠️ | AppleSDHC |
+| eMMC | ⚠️ | AtlasSDHC |
 | Keyboard | ✅ |  |
 | Trackpad | ✅ |  |
 | Battery Status | ✅ |  |
