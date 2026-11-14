@@ -15,6 +15,7 @@ The EFI in this project is divided into two versions by macOS version:
 
 ### Important Notes
 
+- Make sure to upgrade coreboot to the latest version before use, and enter the BIOS settings to disable `Disable HECI1 at the end of boot`.
 - **macOS 26 is not recommended**: The Pixelbook Go has limited hardware performance, resulting in a poor experience.
 - When using `EFI14-26`, you must inject the **OCLP-Mod** patch yourself after macOS installation to enable Wi-Fi:  
   <https://github.com/laobamac/OCLP-Mod/releases>
@@ -32,7 +33,6 @@ This project has currently been tested only on the following configuration:
 
 | Item | Test Machine Specifications |
 |---|---|
-| Model | Google Pixelbook Go |
 | CPU | Intel Core i5-8200Y (Amber Lake Y, 2 cores 4 threads) |
 | iGPU | Intel UHD Graphics 615 |
 | Memory | 16GB LPDDR3 |
@@ -43,7 +43,6 @@ This project has currently been tested only on the following configuration:
 
 | Item | Reference Specifications |
 |---|---|
-| Model | Google Pixelbook Go |
 | CPU | Intel Core m3-8100Y / i5-8200Y / i7-8500Y (Amber Lake Y) |
 | iGPU | Intel UHD Graphics 615 |
 | Memory | 8GB / 16GB LPDDR3 |
